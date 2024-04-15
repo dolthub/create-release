@@ -1,6 +1,6 @@
 {
   "name": "create-release",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Create a release",
   "main": "dist/index.js",
   "scripts": {
@@ -23,10 +23,10 @@
   "dependencies": {
     "@actions/core": "^1.0.0",
     "@actions/exec": "^1.0.0",
-    "@actions/github": "^2.2.0"
+    "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.20.4",
+    "@vercel/ncc": "^0.38.1",
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.6.0",
